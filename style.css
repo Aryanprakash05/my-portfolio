@@ -835,3 +835,73 @@ body {
         clip: rect(87px, 9999px, 63px, 0);
     }
 }
+
+.work-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #444;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+    transition: 0.3s;
+}
+
+.work-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 255, 0, 0.5);
+}
+
+.work-img {
+    width: 100%; /* Reduce width to 80% of container */
+    max-width: 600px; /* Set a max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    object-fit: cover; /* Ensures it maintains aspect ratio */
+}
+
+
+.work-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.work-desc {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.work-tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.work-tags span {
+    background: #333;
+    color: #0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.work-btn {
+    display: inline-block;
+    background: #0f0;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.work-btn:hover {
+    background: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
